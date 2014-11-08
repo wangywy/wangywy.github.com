@@ -9,7 +9,7 @@ title: Wang Yu's Blog
 {{ first_post.title }}
 </a></h1>
 
-<div class="date">
+<div class="authoring">
   <span>{{ first_post.date | date: "%B %e, %Y" }}</span>
 </div>
 {{ first_post.content }}

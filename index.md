@@ -12,12 +12,13 @@ title: Wang Yu's Blog
 <div class="authoring">
   {{ first_post.date | date: "%B %e, %Y" }}
 </div>
+{{ first_post.content }}
+</div>
+
 <div style="line-height:180%;">
   作者：Wang Yu<br>
   出处：<a href="{{ first_post.url }}">http://wangywy.github.com{{ first_post.url }}</a><br>
   声明：本文采用以下协议进行授权： <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">自由转载-非商用-非衍生-保持署名|Creative Commons BY-NC-ND 3.0</a> ，转载请注明作者及出处。<br><br>
-</div>
-{{ first_post.content }}
 </div>
 
 <h1> Newest 10 Posts </h1>

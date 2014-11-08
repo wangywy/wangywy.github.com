@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Wang Yu's Blog
 ---
 {% include JB/setup %}
